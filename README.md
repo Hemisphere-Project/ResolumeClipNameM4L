@@ -4,8 +4,8 @@ Trigger Resolume clips with OSC using Ableton Live Clips Names
 Syntax: 
 ClipName /x/y
 
-x = layer number or all
-y = column number or stop
+- x = layer number or all
+- y = column number or stop
 
 Examples:
 - HiHat /all/1      => triggers column 1 for all layers
