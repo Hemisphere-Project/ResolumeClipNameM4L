@@ -8,10 +8,10 @@ x = layer number or all
 y = column number or stop
 
 Examples:
-HiHat /all/1      => triggers column 1 for all layers
-CowBell /1/3      => triggers column 3 on layer 1
-Break /all/stop   => stop all layers
-Crash /2/stop     => stop layer 2
+- HiHat /all/1      => triggers column 1 for all layers
+- CowBell /1/3      => triggers column 3 on layer 1
+- Break /all/stop   => stop all layers
+- Crash /2/stop     => stop layer 2
 
 This patch is based on a modified version of Resolume Dispatcher from showsync.com/tools
 It adds dynamic observer on all tracks to catch Clip Name when triggered.
